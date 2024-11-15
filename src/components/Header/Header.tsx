@@ -15,7 +15,6 @@ export const Header = () => {
         <div className="mx-3 flex max-w-full items-center" id="profile-title">
           <h1
             className="text-ellipsis text-balance text-center text-lg font-[700] leading-[1.5] text-bodyText"
-            id="profile-spasinnya"
           >
             Дім Хліба
           </h1>
