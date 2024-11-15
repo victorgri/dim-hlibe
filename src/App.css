@@ -1,0 +1,18 @@
+html {
+  height: 100vh;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(#071A8C,#4CAAC1);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

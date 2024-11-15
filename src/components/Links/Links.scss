@@ -1,0 +1,38 @@
+.bl {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin:  0 auto 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+}
+
+.group {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+
+  &:hover {
+    color:burlywood;
+    background-color: chocolate;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    height: 100%;;
+  }
+  .bl  {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  .links {
+    padding-inline: 20px;
+    width: 100%;
+  }
+}
