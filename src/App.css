@@ -1,6 +1,4 @@
-html {
-  height: 100vh;
-}
+
 
 html, body {
   overflow-x: hidden;
@@ -8,6 +6,8 @@ html, body {
 
 body {
   background: linear-gradient(#071A8C,#4CAAC1);
+  background-size: contain;
+
 }
 
 .main {
